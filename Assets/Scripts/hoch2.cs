@@ -33,7 +33,7 @@ public class hoch2 : MonoBehaviour
     // Update is called once per frame
     void Pythagoras(float a, float b)
     {
-            float c = Mathf.Sqrt(a*a + b*b);
+            float c = Mathf.Sqrt(Mathf.Pow(a, 2) + Mathf.Pow(b, 2));
             Debug.Log("c: " + c);
     }
         
